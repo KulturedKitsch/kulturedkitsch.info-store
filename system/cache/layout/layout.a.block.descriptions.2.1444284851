@@ -1,0 +1,39 @@
+a:1:{i:1;a:12:{s:20:"block_description_id";s:1:"2";s:15:"custom_block_id";s:1:"2";s:11:"language_id";s:1:"1";s:13:"block_wrapper";s:1:"0";s:12:"block_framed";s:1:"0";s:4:"name";s:22:"Recurring Subscription";s:5:"title";s:22:"Recurring Subscription";s:11:"description";s:0:"";s:7:"content";s:2713:"&lt;div class=&quot;subscribeNow&quot;&gt;
+&lt;div class=&quot;subscribeNowText&quot;&gt;
+&lt;h1&gt;Expanding?&lt;/h1&gt;
+
+&lt;h2&gt;We are too.&lt;/h2&gt;
+
+&lt;h3&gt;Partner with us, make more marketing with the same money.&lt;/h3&gt;
+
+&lt;p&gt;When you subscribe with us, you get professional consulting, analytics, and optimization.&lt;/p&gt;
+
+&lt;p&gt;You automatically get 33% more marketing dollars just by joining.&lt;/p&gt;
+
+&lt;p&gt;Best of all, you are going to benefit from a real relationship.&lt;/p&gt;
+
+&lt;p&gt;We only get paid when you are!&lt;/p&gt;
+&lt;h3&gt;Let's get to know each other.&lt;/h3&gt;
+&lt;h2&gt;Your First Week: $50!&lt;/h2&gt;
+&lt;/div&gt;
+
+&lt;form action=&quot;https://www.paypal.com/cgi-bin/webscr&quot; method=&quot;post&quot; target=&quot;_top&quot;&gt;&lt;input name=&quot;cmd&quot; type=&quot;hidden&quot; value=&quot;_s-xclick&quot; /&gt; &lt;input name=&quot;hosted_button_id&quot; type=&quot;hidden&quot; value=&quot;B6P3PCHC5GB8N&quot; /&gt;
+&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;input name=&quot;on0&quot; type=&quot;hidden&quot; value=&quot;Plan for Growth&quot; /&gt;Plan for Growth&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;select name=&quot;os0&quot;&gt;&lt;option value=&quot;Bootstraped&quot;&gt;Bootstraped : $200.00 USD - weekly&lt;/option&gt;&lt;option value=&quot;Belt Buckled&quot;&gt;Belt Buckled : $350.00 USD - weekly&lt;/option&gt;&lt;option value=&quot;Bowtied&quot;&gt;Bowtied : $500.00 USD - weekly&lt;/option&gt;&lt;option value=&quot;High-hat&quot;&gt;High-hat : $1,000.00 USD - weekly&lt;/option&gt; &lt;/select&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;input name=&quot;on1&quot; type=&quot;hidden&quot; value=&quot;Your preferred contact info:&quot; /&gt;Your preferred contact info:&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;input maxlength=&quot;200&quot; name=&quot;os1&quot; type=&quot;text&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;img class=&quot;logoSubscribe&quot; src=&quot;http://kulturedkitsch.info/resources/image/18/6b/1.png&quot; /&gt; &lt;input name=&quot;currency_code&quot; type=&quot;hidden&quot; value=&quot;USD&quot; /&gt; &lt;input alt=&quot;PayPal - The safer, easier way to pay online!&quot; border=&quot;0&quot; class=&quot;growNow&quot; name=&quot;submit&quot; src=&quot;http://kulturedkitsch.info/image/thumbnails/18/6b/GrowNow_png-100020-100x100.png?t=1444156461&quot; type=&quot;image&quot; /&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://www.paypalobjects.com/en_US/i/scr/pixel.gif&quot; width=&quot;1&quot; /&gt;&lt;/form&gt;
+&lt;/div&gt;
+";s:10:"date_added";s:19:"0000-00-00 00:00:00";s:13:"date_modified";s:19:"2015-10-06 17:42:35";s:6:"status";s:1:"1";}}

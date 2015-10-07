@@ -261,7 +261,7 @@ section.row {
 /* ------------ Header ------------ */
 .headerstrip {
 	height: 72px;
-	background-color: #00a1cb;
+	background-color: #D584FF;
 }
 .nav_expand {
 	position: absolute;
@@ -4287,4 +4287,107 @@ paypal pro styles
     #footer{
     	display: none;
     }
+}
+
+/*   New styles   */
+
+.subscribeNow{
+	padding: 3%;
+    border-radius: 5%;
+    background-color: #ADFF2F;
+    text-align: right;
+}
+.subscribeNowText{
+	text-align: center;
+}
+.subscribeNowText h1{
+font-size: 5em;
+    color: #FFF;
+            animation: rainbowAnimation 20s 20s infinite;
+       -moz-animation: rainbowAnimation 20s 20s infinite;
+    -webkit-animation: rainbowAnimation 20s 20s infinite;
+         -o-animation: rainbowAnimation 20s 20s infinite;
+}
+/* Animation Keyframes*/
+@keyframes rainbowAnimation {
+    0% { color: #FFF; }
+    25% { color: #F00; }
+    50% { color: #800080; }
+    75% { color: #00F; }
+    100% { color: #FFF; }
+}
+
+@-moz-keyframes rainbowAnimation {
+    0% { color: #FFF; }
+    25% { color: #F00; }
+    50% { color: #800080; }
+    75% { color: #00F; }
+    100% { color: #FFF; }
+}
+
+@-webkit-keyframes rainbowAnimation {
+    0% { color: #FFF; }
+    25% { color: #F00; }
+    50% { color: #800080; }
+    75% { color: #00F; }
+    100% { color: #FFF; }
+}
+
+@-o-keyframes rainbowAnimation {
+    0% { color: #FFF; }
+    25% { color: #F00; }
+    50% { color: #800080; }
+    75% { color: #00F; }
+    100% { color: #FFF; }
+}
+/* End Animations */
+
+.subscribeNowText h2{
+font-size: 4em;
+    color: #044FFF;
+}
+.subscribeNowText h3{
+    font-size: 2em;
+    color: #E00;
+}
+.subscribeNowText p {
+    color: #430B5F;
+    font-size: 1.5em;
+}
+
+.subscribeNow table{
+    width: 100%;
+    text-align: center;
+    font-size: 1.4em;
+    color: #E80000;
+}
+
+.subscribeNow select{
+    border: none;
+    border-radius: 50%;
+    padding: 1em;
+    border-bottom: #000 .3em solid;
+}
+.subscribeNow input{
+    border: none;
+    background-color: transparent;
+    padding: .5em;
+    border-bottom: #000 .2em dashed;
+}
+.logoSubscribe{
+	left: 5%;
+    position: absolute;
+}
+.growNow{
+	transition: 333ms all ease-in-out;
+}
+
+.growNow:focus, .growNow:hover{
+    transform: scale(1.25);
+}
+
+/*  Overrides  */
+
+.navbar-header.header-logo{
+	background: transparent;
 }

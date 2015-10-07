@@ -37,3 +37,6 @@
  Check setting of your store domain URL in System Settings . Loading default store configuration for now. in /var/www/kulturedkitsch.info/public_html/core/lib/config.php on line 182
 2015-10-06 8:55:10 - App Warning:  AbanteCart core v.1.2.4 Warning: Accessing store with unconfigured or unknown domain ( 104.255.71.191/ ).
  Check setting of your store domain URL in System Settings . Loading default store configuration for now. in /var/www/kulturedkitsch.info/public_html/core/lib/config.php on line 182
+2015-10-07 3:36:30 - App Warning:  AbanteCart core v.1.2.4 Warning: Accessing store with unconfigured or unknown domain ( 104.255.71.191/ ).
+ Check setting of your store domain URL in System Settings . Loading default store configuration for now. in /var/www/kulturedkitsch.info/public_html/core/lib/config.php on line 182
+2015-10-07 6:04:04 - warning:  AbanteCart core v.1.2.4 Invalid argument supplied for foreach() in <b>/var/www/kulturedkitsch.info/public_html/admin/controller/pages/design/blocks.php</b> on line <b>363</b>
