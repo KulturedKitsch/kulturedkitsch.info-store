@@ -14,6 +14,50 @@ AbanteCart brand color styles: #064770 (dark blue) #F19013 (Orange)
 
 */
 
+
+/* Animation Keyframes*/
+@keyframes rainbowAnimation {
+    0% { color: #FFF; }
+    25% { color: #F00; }
+    50% { color: #800080; }
+    75% { color: #00F; }
+    100% { color: #FFF; }
+}
+
+@-moz-keyframes rainbowAnimation {
+    0% { color: #FFF; }
+    25% { color: #F00; }
+    50% { color: #800080; }
+    75% { color: #00F; }
+    100% { color: #FFF; }
+}
+
+@-webkit-keyframes rainbowAnimation {
+    0% { color: #FFF; }
+    25% { color: #F00; }
+    50% { color: #800080; }
+    75% { color: #00F; }
+    100% { color: #FFF; }
+}
+
+@-o-keyframes rainbowAnimation {
+    0% { color: #FFF; }
+    25% { color: #F00; }
+    50% { color: #800080; }
+    75% { color: #00F; }
+    100% { color: #FFF; }
+}
+/* End Animations */
+
+
+
+
+
+
+
+
+
+
 /* CSS Document */
 /* ------------ Reset ------------ */
 body {
@@ -2759,7 +2803,48 @@ table th {
 
 /*--- Specific CSS --*/
 .welcome_msg {
-
+	font-size: 13px;
+    text-align: center;
+    color: #ED143D;
+    background: #008B8B;
+    margin-left: -40px;
+    margin-right: -40px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    transition: 777ms font-size ease-in-out;
+}
+@media (max-width:600px){
+	.welcome_msg {
+		font-size: 9px;
+	}
+}
+.welcome_msg h1{
+	font-size: 7em;
+}
+.welcome_msg .first{
+	transition: 1777ms font-size ease-in-out 2s;
+}
+.welcome_msg .second{
+    transition: 1777ms font-size ease-in-out 4s;
+}
+.welcome_msg .third{
+	transition: 1777ms font-size ease-in-out 6s;
+}
+.loaded .welcome_msg .first, .loaded .welcome_msg .second, .loaded .welcome_msg .third{
+	font-size: 2em
+}
+.welcome_msg h2{font-size: 4em;}
+.welcome_msg h2 b{
+            animation: rainbowAnimation 7s 8s infinite;
+       -moz-animation: rainbowAnimation 7s 8s infinite;
+    -webkit-animation: rainbowAnimation 7s 8s infinite;
+         -o-animation: rainbowAnimation 7s 8s infinite;
+}
+.welcome_msg h2 em{
+	            animation: rainbowAnimation 7s 13s infinite;
+       -moz-animation: rainbowAnimation 7s 13s infinite;
+    -webkit-animation: rainbowAnimation 7s 13s infinite;
+         -o-animation: rainbowAnimation 7s 13s infinite;
 }
 
 #current_reviews .pagination .limits {
@@ -3839,6 +3924,10 @@ paypal pro styles
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
+	.welcome_msg {
+		font-size: 9px;
+	}
+
 	.payment_icon img{
 		max-width: 350px;
 	}
@@ -4308,39 +4397,7 @@ font-size: 5em;
     -webkit-animation: rainbowAnimation 20s 20s infinite;
          -o-animation: rainbowAnimation 20s 20s infinite;
 }
-/* Animation Keyframes*/
-@keyframes rainbowAnimation {
-    0% { color: #FFF; }
-    25% { color: #F00; }
-    50% { color: #800080; }
-    75% { color: #00F; }
-    100% { color: #FFF; }
-}
 
-@-moz-keyframes rainbowAnimation {
-    0% { color: #FFF; }
-    25% { color: #F00; }
-    50% { color: #800080; }
-    75% { color: #00F; }
-    100% { color: #FFF; }
-}
-
-@-webkit-keyframes rainbowAnimation {
-    0% { color: #FFF; }
-    25% { color: #F00; }
-    50% { color: #800080; }
-    75% { color: #00F; }
-    100% { color: #FFF; }
-}
-
-@-o-keyframes rainbowAnimation {
-    0% { color: #FFF; }
-    25% { color: #F00; }
-    50% { color: #800080; }
-    75% { color: #00F; }
-    100% { color: #FFF; }
-}
-/* End Animations */
 
 .subscribeNowText h2{
 font-size: 4em;
@@ -4383,8 +4440,18 @@ font-size: 4em;
 }
 
 .growNow:focus, .growNow:hover{
-    transform: scale(1.25);
+    transform: scale(1.15) rotateZ(9deg);
 }
+
+
+
+a#mibew-agent-button img {
+    transition: 333ms all ease-in-out;
+}
+a#mibew-agent-button img:hover, a#mibew-agent-button img:focus{
+	transform: scale(1.15) rotateZ(9deg);
+}
+
 
 /*  Overrides  */
 

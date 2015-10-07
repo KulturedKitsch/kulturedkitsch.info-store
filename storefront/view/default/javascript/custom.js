@@ -1,3 +1,6 @@
+document.body.setAttribute("class", document.body.getAttribute('class') + " loaded");
+
+
 $(window).bind("load", function() {
     $(function () {
             $('#banner_slides').show();
